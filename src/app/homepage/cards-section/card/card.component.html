@@ -1,0 +1,14 @@
+<div class="card bg-info w-80 md:w-96 h-96">
+    <figure class="px-10 pt-10">
+        <img [src]="image" [alt]="title" class="rounded-md h-48 w-full object-cover" />
+    </figure>
+    <div class="card-body items-center text-center">
+        <h2 class="card-title">{{ title }}</h2>
+        <p>{{ description }}</p>
+        <div class="card-actions">
+            <button class="btn btn-primary"><a href="/get-involved">
+                    {{ buttonText }}
+                </a> </button>
+        </div>
+    </div>
+</div>
